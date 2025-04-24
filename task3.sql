@@ -43,6 +43,7 @@ from payment
 group by staff_id;
 select *  from staff_revenue;
 
+#index
 select * from rental;
 select * from rental where date(rental_date)='2005-05-24';
 explain select * from rental where date(rental_date)='2005-05-24';
